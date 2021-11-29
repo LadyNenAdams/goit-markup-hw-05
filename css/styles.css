@@ -211,6 +211,7 @@ img {
     font-size: 14px;
     line-height: 16px;
     color: var(--header-contact-color);
+
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -218,9 +219,7 @@ img {
 
 .header-contact:hover, .header-contact:focus {
     color: var(--highlight-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
     
 }
 
@@ -228,6 +227,9 @@ img {
 .contact-icon {
     margin-right: 10px;
     fill: var(--contact-icons-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -705,14 +707,15 @@ img {
 
 .team-icon {
     fill: var(--team-icons-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
 .team-network-link:hover, .team-network-link:focus {
     background-color: var(--highlight-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 
   
 }
@@ -720,6 +723,7 @@ img {
 .team-network-link:hover .team-icon,
 .team-network-link:focus .team-icon {
     fill: var(--highlight-icon);
+
 }
 
 /*Постоянные клиенты*/
@@ -788,9 +792,7 @@ img {
 
 .customers-link:focus, .customers-link:hover {
     border: 1px solid var(--highlight-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .customers-link:hover .customers-icon, 
@@ -800,9 +802,12 @@ img {
 }
 
 .customers-icon {
-    
-   
+     
     fill: var(--customers-icons-color);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop {
     width: 100vw;
